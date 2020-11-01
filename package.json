@@ -1,0 +1,32 @@
+{
+  "name": "multiuser",
+  "version": "1.0.0",
+  "description": "To create a Full stack multi user system",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "test": "node test.js",
+    "prod": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sharu24/multiUser.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sharu24/multiUser/issues"
+  },
+  "homepage": "https://github.com/Sharu24/multiUser#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.11",
+    "nodemailer": "^6.4.14",
+    "pug": "^3.0.0",
+    "randomstring": "^1.1.5"
+  }
+}
